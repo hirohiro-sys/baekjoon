@@ -6,7 +6,7 @@ for i in S2:
     ct = S.count(i)
     li.append(ct)
 
-if li.count(max(li)) > 1:
+if li.count(max(li)) > 1: 
     print("?")
 else:
     mx_idx = li.index(max(li))
