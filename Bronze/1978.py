@@ -17,3 +17,11 @@ for i in A:
     if is_prime(i):
         count += 1
 print(count)
+
+"""
+# エラトステネスのふるい
+is_prime = True
+for i in range(2,int(math.sqrt(sm)) + 1):
+    if sm % i == 0:
+        is_prime = False
+"""
