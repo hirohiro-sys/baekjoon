@@ -21,5 +21,6 @@ for i in range(K):
 
 print(",".join(map(str,A)))
 
-
+"""
 https://www.acmicpc.net/problem/1551
+"""
