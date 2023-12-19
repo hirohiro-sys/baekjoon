@@ -7,3 +7,7 @@ Q = int(input())
 for i in range(Q):
     x,y = map(int,input().split())
     print(new_A[y] - new_A[x-1])
+
+"""
+https://www.acmicpc.net/submit/11441/70508100
+"""
