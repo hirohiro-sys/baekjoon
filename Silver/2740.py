@@ -15,3 +15,4 @@ for i in ans:
 
 
 # 파이썬 행렬 곱셈은 N*M 행렬과 M*K 행렬이 만나 N*K행렬을 만든 다는 것만 기억하면 된다.
+# https://www.acmicpc.net/problem/2740
