@@ -6,7 +6,7 @@ a2 = [list(map(int,input().split())) for _ in range(m)]
 ans = [[0 for _ in range(k)] for _ in range(n)]
 for N in range(n):
     for K in range(k):
-        for M in range(m):
+        for M in range(m): 
             ans[N][K] += a[N][M]*a2[M][K]
 for i in ans:
     for j in i:
