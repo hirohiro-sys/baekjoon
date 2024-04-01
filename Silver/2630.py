@@ -7,10 +7,10 @@ def cut(x,y,n):
     for i in range(x,x+n):
         for j in range(y,y+n):
             if color!=paper[i][j]:
-                cut(x,y,n//2)
-                cut(x,y+n//2,n//2)
-                cut(x+n//2,y,n//2)
-                cut(x+n//2,y+n//2,n//2)
+                cut(x,y,n//2) //1面
+                cut(x,y+n//2,n//2) //2面
+                cut(x+n//2,y,n//2) //3面
+                cut(x+n//2,y+n//2,n//2) //4面
                 return 
     
     if color==0:
