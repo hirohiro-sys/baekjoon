@@ -51,6 +51,7 @@ while True:
         # 移動先のマスに蛇がいることを登録してキューにも追加
         board[x][y] = 2
         snake.append([x,y])
+        # もし現在の時間と登録しておいた時間が被った場合は方向転換させる
         if time in times.keys():
             direction = direction_change(direction,times[time])
         time += 1
